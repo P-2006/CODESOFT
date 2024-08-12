@@ -1,0 +1,14 @@
+#To make simple Calculator
+p=int(input("Enter the I number:"))
+q=int(input("Enter the II number:"))
+operation=input("addition/subraction/multiplication/division")
+if(operation == "addition"):
+   print(p+q)
+elif(operation == "subraction"):
+   print(p-q)
+elif(operation == "multiplication"):
+    print(p*q)
+elif(operation == "division"):
+    print(p/q)
+else:
+    print("Invalid operation")
